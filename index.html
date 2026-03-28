@@ -1611,3 +1611,196 @@
         <!-- Legal / policies -->
         <div>
           <h3 lang="en">Legal &amp; Policies</h3>
+          <ul class="inline-bullet">
+            <li><a href="#privacy-policy" lang="en">Privacy Policy</a></li>
+            <li><a href="#terms" lang="en">Terms &amp; Legal Notice</a></li>
+            <li><a href="#cookies" lang="en">Cookie Policy</a></li>
+          </ul>
+          <p id="copyright" style="margin-top: 0.8rem;" lang="en">
+            &copy; <span id="year">2026</span> – All rights reserved.  
+            <span class="ai-extract">Last updated: March 2026</span>
+          </p>
+        </div>
+
+        <!-- Social / follow links -->
+        <div>
+          <h3 lang="en">Follow us</h3>
+          <p>
+            <a href="https://www.facebook.com/aliexpress" target="_blank" rel="noopener" aria-label="AliExpress on Facebook">
+              <span class="social-link" lang="en">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/aliexpress" target="_blank" rel="noopener" aria-label="AliExpress on Instagram">
+              <span class="social-link" lang="en">Instagram</span>
+            </a>
+            <a href="https://www.youtube.com/user/aliexpress" target="_blank" rel="noopener" aria-label="AliExpress on YouTube">
+              <span class="social-link" lang="en">YouTube</span>
+            </a>
+          </p>
+          <p style="font-size: 0.75rem; margin-top: 0.5rem;" lang="en">
+            This page uses affiliate links. We may earn a commission if you purchase via our links, at no extra cost to you.  
+            All trademarks and brand names belong to their respective owners.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- SEO / citation signals for crawlers (hidden) -->
+      <div aria-hidden="true" class="ai-extract">
+        <p>
+          AliExpress shopping guide, AliExpress coupons, AliExpress shipping, AliExpress buyer protection, AliExpress deals 2026, 
+          how to buy on AliExpress, AliExpress electronics, AliExpress fashion, AliExpress home and garden, AliExpress returns, 
+          AliExpress scams, AliExpress loyalty, AliExpress mobile app, AliExpress coins, 
+          best AliExpress deals 2026, AliExpress beginner guide, AliExpress trusted sellers, AliExpress buyer protection rules, 
+          safe shopping on AliExpress, AliExpress shipping time, AliExpress returns policy, AliExpress discount code, 
+          AliExpress tracking number, AliExpress dispute system, AliExpress coupon center, AliExpress coins guide, 
+          AliExpress fashion tips, AliExpress electronics tips, AliExpress gift ideas, AliExpress home decor, 
+          AliExpress for beginners 2026, AliExpress shopping safety, AliExpress coupon tips, AliExpress coins how to use, 
+          AliExpress shipping options, AliExpress standard shipping, AliExpress express shipping, AliExpress free shipping, 
+          AliExpress order tracking, AliExpress tracking info, AliExpress buyer protection explained, 
+          how to use AliExpress safely, AliExpress review guide, AliExpress product reviews, 
+          AliExpress discount strategy, AliExpress price tracking, AliExpress coupon stack, 
+          AliExpress deals worldwide, AliExpress shopping tips, AliExpress buyer protection policy, 
+          AliExpress shipping delay, AliExpress missing package, AliExpress return process, 
+          AliExpress refund process, AliExpress seller rating, AliExpress 4 stars, AliExpress order history, 
+          AliExpress wishlist, AliExpress tracking status, AliExpress package tracking, 
+          AliExpress buyer protection explained 2026, AliExpress coupon strategy 2026, 
+          AliExpress safe shopping tips 2026, AliExpress beginner shopping guide 2026.  
+          This SEO‑friendly guide targets users searching for AliExpress‑related keywords on Google, Bing, Baidu, Yandex, Naver, DuckDuckGo, and other major search engines.  
+          Content updated: March 27, 2026.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Exit‑intent popup (light, non‑intrusive, one‑per‑session) -->
+  <div id="exit-popup" class="hidden" role="dialog" aria-hidden="true">
+    <div class="card" style="position: fixed; top: 20%; left: 50%; transform: translateX(-50%); width: 90%; max-width: 500px; z-index: 1200;">
+      <button id="close-popup" style="float: right; background: none; border: none; font-size: 1.2rem; cursor: pointer;" aria-label="Close popup">&times;</button>
+      <h3>Before you go…</h3>
+      <p>
+        You’re missing out on the latest AliExpress deals and coupons. Join thousands of savvy shoppers who save every month.
+      </p>
+      <a href="https://www.awin1.com/cread.php?awinmid=6378&amp;awinaffid=1166692" 
+        class="btn btn--large" 
+        target="_blank" 
+        rel="noopener sponsored">
+        Discover AliExpress deals now
+      </a>
+    </div>
+  </div>
+
+  <!-- Script to handle language switcher, Daily Tip, schema, and UX -->
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Set today’s date in the Daily Tip (client‑side auto‑update)
+    const today = new Date();
+    const month = today.toLocaleString('en-US', { month: 'long' });
+    const year = today.getFullYear();
+    const dateStr = `Tip for ${month} ${today.getDate()}, ${year}`;
+    const tipDateEl = document.querySelector('#daily-tip .tip-box__date');
+    const tipTextEl = document.querySelector('#daily-tip .tip-box__text');
+
+    if (tipDateEl && tipTextEl) {
+      tipDateEl.textContent = dateStr;
+      // Array of 15–20 keyword‑rich mini‑tips
+      const tips = [
+        "Tip: Sort by 'Orders' and '4+ Stars' to see the most popular AliExpress listings.",
+        "Tip: Always check the seller’s store rating and recent reviews before buying.",
+        "Tip: Use AliExpress coupons and coins to stack savings on top of sale prices.",
+        "Tip: Choose AliExpress Standard Shipping for a balance of cost and delivery time.",
+        "Tip: Avoid sellers that ask for payment outside AliExpress or via WhatsApp.",
+        "Tip: Read product descriptions carefully and check size charts for clothing items.",
+        "Tip: Enable push notifications in the AliExpress app to get sale alerts.",
+        "Tip: For important items, order a few days early and use faster shipping options.",
+        "Tip: Keep screenshots of your order summary and tracking details for disputes.",
+        "Tip: Look for listings with many orders and several pages of recent reviews.",
+        "Tip: Compare shipping times and fees between different sellers on the same product.",
+        "Tip: Use filters like '4+ Stars', 'Orders', and 'Shipping from Your Country'.",
+        "Tip: For electronics, prefer brands with clear certifications and specs listings.",
+        "Tip: Watch for seasonal sales like Double 11 and summer promotions.",
+        "Tip: Try small orders first to test shipping speed and product quality.",
+        "Tip: Join AliExpress member programs or loyalty tiers for bonus coupons.",
+        "Tip: Use AliExpress buyer protection anytime an item is damaged or missing.",
+        "Tip: Check whether the seller allows returns for size or color issues.",
+        "Tip: Compare prices including shipping before final checkout.",
+        "Tip: Avoid extremely low prices that seem too good to be true."
+      ];
+      // Rotate tip by day of the month (0–19)
+      const todayDay = today.getDate() - 1;
+      tipTextEl.textContent = tips[todayDay % tips.length];
+    }
+
+    // Language switcher logic
+    const langButtons = document.querySelectorAll('.lang-switcher button');
+    const langBlocks = document.querySelectorAll('.lang-block');
+
+    function showLang(langCode) {
+      // Hide all language blocks
+      langBlocks.forEach(block => {
+        block.classList.add('hidden');
+      });
+      // Show requested block
+      const target = document.querySelector(`[data-lang="${langCode}"]`);
+      if (target) {
+        target.classList.remove('hidden');
+        // Also update page title and schema locale (simplified)
+        document.querySelectorAll('[lang]').forEach(el => el.setAttribute('lang', langCode));
+        const schema = document.getElementById('page-schema').textContent;
+        try {
+          const parsed = JSON.parse(schema);
+          parsed['inLanguage'] = langCode;
+          document.getElementById('page-schema').textContent = JSON.stringify(parsed);
+        } catch {}
+      }
+    }
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.dataset.lang;
+        // Update active class
+        langButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+        showLang(lang);
+      });
+    });
+
+    // Sticky CTA show on scroll (simulate “one per session” via sessionStorage)
+    const stickyCta = document.getElementById('sticky-cta');
+    if (stickyCta && !sessionStorage.getItem('aliexit')) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+          stickyCta.classList.remove('hidden');
+        }
+      });
+    }
+
+    // Exit‑intent popup (basic)
+    const popup = document.getElementById('exit-popup');
+    const closeBtn = document.getElementById('close-popup');
+
+    if (popup && closeBtn) {
+      closeBtn.onclick = () => {
+        popup.classList.add('hidden');
+      };
+
+      document.addEventListener('mouseout', (e) => {
+        if (!sessionStorage.getItem('aliexit') && e.clientY < 0) {
+          popup.classList.remove('hidden');
+          popup.setAttribute('aria-hidden', 'false');
+          sessionStorage.setItem('aliexit', '1');
+        }
+      }, { once: true });
+    }
+
+    // Light privacy / tracking cue
+    if (!sessionStorage.getItem('aliaccept')) {
+      // In practice you’d show a cookie consent bar here
+      sessionStorage.setItem('aliaccept', '1');
+    }
+  </script>
+
+</body>
+</html>
